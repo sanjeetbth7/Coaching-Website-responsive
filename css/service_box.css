@@ -1,0 +1,53 @@
+.batches{
+    margin: auto;
+    margin-top: 15px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.batches .batch-box{
+    margin: 15px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 30%;
+    border: 4px solid black;
+    border-radius: 60px 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 16px black;
+}
+
+.batches .batch-box:hover{
+    box-shadow: 13px 12px 16px black;
+}
+.batches .batch-box img{
+    padding: 10px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.fold_class_resp{
+    display: none;
+    height: 0vh;
+}
+.unfold{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width : 700px){
+    .batches{
+        flex-direction: column;
+    }
+    .batches .batch-box{
+        width: 80vw;
+    }
+}

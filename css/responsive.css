@@ -1,0 +1,141 @@
+@media only screen and (max-width : 1000px) {
+
+    .navbar {
+        flex-direction: column;
+        box-shadow: 0px 3px 65px 0px rgb(0 0 0 / 15%);
+    }
+
+    .navList {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    .leftNav {
+        width: 70%;
+        justify-content: center;
+    }
+
+    .rightNav {
+        width: 70%;
+        justify-content: center;
+    }
+
+    .top_logo_resp {
+        margin-top: 10px;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger-resp {
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .line-resp {
+        background-color: #1a1f37fc;
+    }
+
+    .h-nav-resp {
+        height: 60px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .h_class_resp {
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .text-sm {
+        font-size: medium;
+    }
+
+    .top-resp {
+        padding-top: 60px;
+        padding-bottom: 3vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+        width: fit-content;
+    }
+
+    .firstSection .quotes {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .firstSection .head-img {
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    }
+
+    .firstSection .head-img img {
+        height: 90%;
+        width: fit-content;
+    }
+
+    .details-list {
+        width: 70%;
+    }
+    .map{
+        width: 90%;
+    }
+
+
+
+}
+
+@media only screen and (max-width : 760px) {
+    .highlight {
+        flex-direction: column;
+    }
+
+    .details-list {
+        width: 98%;
+    }
+
+    .contact-top {
+        flex-direction: column;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .feedback_form {
+        width: 80%;
+    }
+
+}

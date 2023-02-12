@@ -1,0 +1,318 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.btn {
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 10px 0px;
+    padding: 4px 6px;
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 14px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+
+.firstSection {
+    display: flex;
+    background: rgba(13, 1, 23, 0.6) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.firstSection .quotes {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    padding: 4%;
+    margin: 4%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.firstSection .quotes p {
+    font-size: large;
+    margin: 10px 5px;
+}
+
+.firstSection .head-img {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin: 10% 2% 2% 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection .head-img img {
+    height: 100%;
+}
+
+.secondSec {
+    background-color: rgb(232 224 224 / 45%);
+
+    overflow: hidden;
+}
+
+.secondSec h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.highlight {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.key_list {
+    list-style: none;
+
+}
+
+.key_list .keypoint {
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px 0px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 4px;
+    padding-left: 20px;
+}
+
+/*        <------- for enrollment form ----------->        */
+.enrollment-form {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vw;
+    background-color: #ffffffb0;
+}
+
+.enrollment-form {
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: left;
+    display: block;
+    /* width: 40vw; */
+    width: 335px;
+    padding: 2px 4px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #ffffffb0;
+}
+
+.form-group:hover {
+    /* width: 42vw; */
+    width: 340px;
+    border-left: 8px solid rgb(230, 230, 51);
+}
+
+.enrollment-form button {
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+.enrollment-form button:hover {
+
+    background-color: black;
+    padding: 8px;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+
+footer {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #91d0d79e;
+    color: #000000;
+}
+
+.logofooter {
+    padding-top: 5px;
+    width: 25px;
+    text-align: center;
+}
+
+/* <------ for contact page ---------> */
+.contact-top {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    /* height: 60; */
+    margin: auto;
+    padding: 10px;
+}
+
+.details-list {
+    margin: 10px;
+    padding: 5px;
+    width: 98%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.details-list li {
+    align-items: center;
+}
+
+.map {
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* <----- for feedback form ------>  */
+.feedback {
+
+    background: rgb(32 5 54 / 60%) url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    width: 100%;
+}
+
+.feedback h3 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-size: larges;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.feedback_form {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.feedback form input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.feedback form input:hover {
+    border-left: 5px solid orange;
+}
+
+.feedback form textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.feedback form textarea:hover {
+    border-left: 2px solid orange;
+}
+
+.feedback form button {
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+.feedback form button:hover {
+    background-color: black;
+    padding: 8px;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+
+.about_us {
+    padding: 25px 50px;
+}
+
+.about_us h3 {
+    color: rgb(226, 151, 13);
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.about_us p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: justify;
+}
